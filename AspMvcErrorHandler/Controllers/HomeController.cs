@@ -6,6 +6,7 @@ namespace MvcErrorHandler.Controllers
     {
         public string Index()
         {
+            //throw new System.Exception("Hehe!");
             return DataProvider.GetData();
         }
     }

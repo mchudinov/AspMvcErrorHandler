@@ -8,6 +8,7 @@ namespace MvcErrorHandler
 
         public static string GetData()
         {
+            //throw new System.Exception("Hoho!");
             return _rnd.Next(1, 1000000).ToString();
         }
     }
