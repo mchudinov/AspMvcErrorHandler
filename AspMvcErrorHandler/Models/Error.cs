@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MvcErrorHandler.Models
+namespace AspMvcErrorHandler.Models
 {
     public class Error
     {

@@ -2,7 +2,7 @@
 using System.Web;
 using System.Web.Mvc;
 
-namespace MvcErrorHandler
+namespace AspMvcErrorHandler
 {
     public class ErrorPageController : Controller
     {

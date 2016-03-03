@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace MvcErrorHandler.Controllers
+namespace AspMvcErrorHandler.Controllers
 {
     public class HomeController : Controller
     {

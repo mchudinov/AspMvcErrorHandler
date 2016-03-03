@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using NLog;
 
-namespace MvcErrorHandler
+namespace AspMvcErrorHandler
 {
     public class MvcApplication : HttpApplication
     {
@@ -16,7 +16,8 @@ namespace MvcErrorHandler
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            //throw new System.Exception("Hihi!");
+            _log.Info("Application started");
+            //throw new Exception("Hihi!");
         }
 
         protected void Application_Error(object sender, EventArgs e)
