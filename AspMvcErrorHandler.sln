@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcErrorHandler", "MvcErrorHandler\MvcErrorHandler.csproj", "{660CF38D-3E89-454C-B2E8-1BF265FAC230}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspMvcErrorHandler", "AspMvcErrorHandler\AspMvcErrorHandler.csproj", "{660CF38D-3E89-454C-B2E8-1BF265FAC230}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
