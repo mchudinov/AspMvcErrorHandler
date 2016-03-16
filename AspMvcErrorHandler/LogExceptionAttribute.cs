@@ -7,6 +7,11 @@ namespace AspMvcErrorHandler
     [Serializable]
     public class LogExceptionAttribute : OnExceptionAspect
     {
+        public LogExceptionAttribute()
+        {
+            AspectPriority = 10;
+        }
+
         private static readonly Logger log = LogManager.GetCurrentClassLogger();
 
         public override void OnException(MethodExecutionArgs args)

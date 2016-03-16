@@ -2,8 +2,8 @@
 
 namespace AspMvcErrorHandler
 {
-    [Log(AspectPriority = 2)]
-    [LogException(AspectPriority = 1)]
+    [Log]
+    [LogException]
     public class DataProvider
     {
         private static readonly Random _rnd = new Random();
