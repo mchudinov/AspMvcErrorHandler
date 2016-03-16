@@ -16,7 +16,7 @@ namespace AspMvcErrorHandler
             AspectPriority = 20;
         }
 
-    public override void OnEntry(MethodExecutionArgs args)
+        public override void OnEntry(MethodExecutionArgs args)
         {
             log.Debug("Entering {0}.{1}({2})", args.Method.DeclaringType.Name, args.Method.Name, DisplayObjectInfo(args));
         }
